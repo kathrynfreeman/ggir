@@ -27,7 +27,7 @@ library(GGIR)
 g.shell.GGIR(mode = 1:5, 
   datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/", 
   outputdir = "/Users/katefreeman/Sync/ForbowShared/SleepData/ggir_results", 
-  studyname= "nitya_day",
+  studyname= "_day",
   f0=1,f1=0, do.report=c(2,3,4,5),overwrite=FALSE,visualreport=TRUE,
   viewingwindow=1)
 
@@ -35,7 +35,7 @@ g.shell.GGIR(mode = 1:5,
 g.shell.GGIR(mode = 1:5, 
   datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/", 
   outputdir = "/Users/katefreeman/Sync/ForbowShared/SleepData/ggir_results", 
-  studyname= "nitya_night",
+  studyname= "_night",
   f0=1,f1=0, do.report=c(2,3,4,5),overwrite=FALSE,visualreport=TRUE,
   viewingwindow=2)
 
