@@ -20,26 +20,30 @@ Try executing this chunk by clicking the *Run* button within the chunk or by pla
 library(GGIR)
 ```
 
-
 ```{r}
-
-
+## Viewing window centred around Noon 
+#### Continuous day data
 g.shell.GGIR(mode = 1:5, 
-  datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/", 
+  datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/800-0028-045_left wrist_060374_2021-08-30 16-02-46.bin", 
   outputdir = "/Users/katefreeman/Sync/ForbowShared/SleepData/ggir_results", 
-  studyname= "_day",
+  studyname= "800-0028-045_day",
   f0=1,f1=0, do.report=c(2,3,4,5),overwrite=FALSE,visualreport=TRUE,
   viewingwindow=1)
+```
 
-
+```{r}
+## Viewing window centred around Midnight
+####Continuous night data
 g.shell.GGIR(mode = 1:5, 
-  datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/", 
+  datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/800-0028-045_left wrist_060374_2021-08-30 16-02-46.bin", 
   outputdir = "/Users/katefreeman/Sync/ForbowShared/SleepData/ggir_results", 
-  studyname= "_night",
+  studyname= "800-0028-045_night",
   f0=1,f1=0, do.report=c(2,3,4,5),overwrite=FALSE,visualreport=TRUE,
   viewingwindow=2)
 
 ```
+
+
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
