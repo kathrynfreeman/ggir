@@ -1,0 +1,18 @@
+---
+title: "GGIR Parallel Processing Script"
+output: html_notebook
+---
+
+```{r}
+library(GGIR)
+```
+
+```{r}
+g.shell.GGIR(mode = 1:5, 
+  datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/raw_geneactive/800-0107-207_left wrist_060371_2022-04-21 16-24-43.bin", 
+  outputdir = "/Users/katefreeman/Sync/ForbowShared/SleepData/night/ggir_results_night", 
+  studyname= "800-0107-207_night",
+  f0=1,f1=0, do.report=c(2,3,4,5),overwrite=FALSE,visualreport=TRUE,
+  viewingwindow=2)
+```
+
