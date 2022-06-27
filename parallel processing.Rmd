@@ -9,10 +9,20 @@ library(GGIR)
 
 ```{r}
 g.shell.GGIR(mode = 1:5, 
-  datadir = "/Users/katefreeman/Sync/ForbowShared/SleepData/raw_geneactive/800-0107-207_left wrist_060371_2022-04-21 16-24-43.bin", 
+  datadir = "/Users/katefreeman/Desktop/partialfiles", 
   outputdir = "/Users/katefreeman/Sync/ForbowShared/SleepData/night/ggir_results_night", 
-  studyname= "800-0107-207_night",
+  studyname= "partialfiles.actigraph.extract.23.06.2022",
+  storefolderstructure=TRUE,
   f0=1,f1=0, do.report=c(2,3,4,5),overwrite=FALSE,visualreport=TRUE,
   viewingwindow=2)
 ```
 
+```{r}
+g.shell.GGIR(mode = 1:5, 
+  datadir = "/Users/katefreeman/Desktop/completefiles", 
+  outputdir = "/Users/katefreeman/Sync/ForbowShared/SleepData/night/ggir_results_night", 
+  studyname= "completefiles.actigraph.extract.23.06.2022",
+  storefolderstructure=TRUE,
+  f0=1,f1=0, do.report=c(2,3,4,5),overwrite=FALSE,visualreport=TRUE,
+  viewingwindow=2)
+```
