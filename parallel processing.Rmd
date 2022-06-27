@@ -7,6 +7,8 @@ output: html_notebook
 library(GGIR)
 ```
 
+## Parallel Processing: Night Viewing window (2)
+
 ```{r}
 g.shell.GGIR(mode = 1:5, 
   datadir = "/Users/katefreeman/Desktop/partialfiles", 
